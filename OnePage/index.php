@@ -161,7 +161,7 @@ $documento = $stmt->fetch();
           <div class="icon-box">
             <div class="icon"><i class="ri-palette-line"></i></div>
             <h4 class="title"><a href="mostrar_productos.php">Nuestros Productos</a></h4>
-          <!--<p class="description">Confecciona aqui los documentos</p>--->
+          <p class="description">Confecciona aqui los documentos</p>
           </div>
         </div>
 
