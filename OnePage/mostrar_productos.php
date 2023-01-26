@@ -199,7 +199,7 @@ if (isset($_POST['submit'])) {
 
 <!-- Formulario de búsqueda -->
 <form action="" method="post">
-  <input type="text" name="busqueda" style="width:350px; height:50px" placeholder="Buscar en GesNot">
+  <input type="text" name="busqueda" style="width:350px; height:50px" placeholder="Buscar en RainBow">
   <input class="btn btn-outline-primary" type="submit" style="width:100px; height:50px" name="submit" value="Buscar">
 </form>
 

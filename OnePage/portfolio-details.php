@@ -226,7 +226,7 @@
 
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          &copy; Copyright <strong><span>GesNot</span></strong>. Todos los derechos reservados.
+          &copy; Copyright <strong><span>RainBow</span></strong>. Todos los derechos reservados.
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->

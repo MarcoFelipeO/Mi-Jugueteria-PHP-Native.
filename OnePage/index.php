@@ -69,9 +69,9 @@ $documento = $stmt->fetch();
 
 <style>
   .texto-formateado {
-    font-size: 70px;
+    font-size: 80px;
     color: yellow;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
   }
 </style>
 
