@@ -208,14 +208,14 @@ if (isset($_POST['submit'])) {
 <?php if (isset($result) && mysqli_num_rows($result) > 0): ?>
   <h2>Resultados de la búsqueda</h2>
   <?php while ($row = mysqli_fetch_assoc($result)): ?>
-     <h3><strong><a href="http://localhost/notariagesnot/onepage/mostrar_documento.php?documento_seleccionado=<?php echo $row['id']; ?>&nombre=<?php echo $row['nombre']; ?>" <h3><?php echo $row['nombre']; ?> </h3><br></strong></h3>
+     <h5><strong><a href="http://localhost/notariagesnot/onepage/mostrar_documento.php?documento_seleccionado=<?php echo $row['id']; ?>&nombre=<?php echo $row['nombre']; ?> <h5><?php echo $row['nombre']; ?> </h5><br></strong></h5>
 
     
     
     </a>
   <?php endwhile; ?>
 <?php else: ?>
-  <p>Busque su documento</p>
+  <p>Busque sus Juguetes preferidos</p>
 <?php endif; ?>
 
 </center>
@@ -264,7 +264,7 @@ if (isset($_POST['submit'])) {
 <br>
 <center>
   <div class="texto-formateado">
-<strong><h2>DOCUMENTOS DISPONIBLES PARA TI: </h2></strong>
+<strong><h2>JUGUETES DISPONIBLES PARA TI</h2></strong>
   </div>
 </center>
 <br>
