@@ -197,23 +197,23 @@ $documento = $stmt->fetch();
 
         <div class="section-title">
           <h2>Juguetes Disponibles</h2>
-          <h3>Descubre los más de 40 documentos que tenemos disponibles para ti</h3>
+          <h3>Descubre los juguetes que tenemos para ti </h3>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="150">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Más solicitados</li>
-              <li data-filter=".filter-app">Viajes</li>
-              <li data-filter=".filter-card">Contratos</li>
-              <li data-filter=".filter-web">Declaraciones</li>
+              <li data-filter=".filter-app">De mandera</li>
+              <li data-filter=".filter-card">Sencillo</li>
+              <li data-filter=".filter-web">Grandes</li>
 
-              <li data-filter=".filter-laborales">Laborales</li>
-              <li data-filter=".filter-web">Poderes</li>
-              <li data-filter=".filter-web">Mandatos</li>
-              <li data-filter=".filter-web">Vehiculos</li>
-              <li data-filter=".filter-web">Empresas</li>
-              <li data-filter=".filter-web">Otros</li>
+              <li data-filter=".filter-laborales">Juguetes coloridos</li>
+              <li data-filter=".filter-web">Recien Nacidos</li>
+              <li data-filter=".filter-web">Primer Año</li>
+              <li data-filter=".filter-web">Dos años</li>
+              <li data-filter=".filter-web">Tres Años</li>
+              <li data-filter=".filter-web">Cuatro y mas años</li>
             </ul>
           </div>
         </div>

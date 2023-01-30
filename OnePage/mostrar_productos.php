@@ -133,6 +133,8 @@ $documentos = $stmt->fetchAll();
                 </ul>
               </li>
               <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
@@ -199,7 +201,7 @@ if (isset($_POST['submit'])) {
 
 <!-- Formulario de búsqueda -->
 <form action="" method="post">
-  <input type="text" name="busqueda" style="width:350px; height:50px" placeholder="Buscar en RainBow">
+  <input type="text" name="busqueda" style="width:350px; height:50px" placeholder="Buscar en GesNot">
   <input class="btn btn-outline-primary" type="submit" style="width:100px; height:50px" name="submit" value="Buscar">
 </form>
 
@@ -208,14 +210,14 @@ if (isset($_POST['submit'])) {
 <?php if (isset($result) && mysqli_num_rows($result) > 0): ?>
   <h2>Resultados de la búsqueda</h2>
   <?php while ($row = mysqli_fetch_assoc($result)): ?>
-     <h5><strong><a href="http://localhost/notariagesnot/onepage/mostrar_documento.php?documento_seleccionado=<?php echo $row['id']; ?>&nombre=<?php echo $row['nombre']; ?> <h5><?php echo $row['nombre']; ?> </h5><br></strong></h5>
+     <h3><strong><a href="http://localhost/notariagesnot/onepage/mostrar_documento.php?documento_seleccionado=<?php echo $row['id']; ?>&nombre=<?php echo $row['nombre']; ?>" <h3><?php echo $row['nombre']; ?> </h3><br></strong></h3>
 
     
     
     </a>
   <?php endwhile; ?>
 <?php else: ?>
-  <p>Busque sus Juguetes preferidos</p>
+  <p>Busque su documento</p>
 <?php endif; ?>
 
 </center>
@@ -264,7 +266,7 @@ if (isset($_POST['submit'])) {
 <br>
 <center>
   <div class="texto-formateado">
-<strong><h2>JUGUETES DISPONIBLES PARA TI</h2></strong>
+<strong><h2>DOCUMENTOS DISPONIBLES PARA TI: </h2></strong>
   </div>
 </center>
 <br>
